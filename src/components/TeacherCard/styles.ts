@@ -1,106 +1,105 @@
 import { StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create({
-    teacherCard:{
-        width: '90%',
+    container:{
         backgroundColor: '#FFFFFF',
         borderRadius: 8,  
         marginBottom: 16,
-        overflow: 'hidden'    ,
+        overflow: 'hidden',
+        borderWidth: 1,
+        borderColor: '#E6E6F0',
     },
-    teacherCardHeader:{
+    header:{
         width: '100%',
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'flex-start',
-        padding: 20,
+        paddingHorizontal: 20,
+        marginTop: 10,
     },
-    teacherAvatar:{
+    avatar:{
         width: 64,
         height: 64,
         backgroundColor: '#000',
         borderRadius: 32,
         marginRight: 16,
     },
-    teacherInfo:{
+    profileInfo:{
         height: 80,
         alignItems: 'flex-start',
         justifyContent: 'center'        
     },
-    teacherName:{
+    name:{
         fontFamily: 'Archivo_700Bold',
         fontSize: 20,
         lineHeight: 24,
-        color: '#32264D',        
+        color: '#32264D',
     },
-    teacherSubject:{
+    subject:{
         fontFamily: 'Poppins_400Regular',
         fontSize: 12,
         color: '#6A6180'
     },
-    teacherCardBody:{     
-    },
-    teacherBio:{
+    bio:{
         fontFamily: 'Poppins_400Regular',
         fontSize: 14,
         lineHeight: 24,
         color: '#6A6180',     
-        paddingHorizontal: 20,   
+        paddingHorizontal: 20,
+        marginVertical: 20,   
     },
-    teacherCardFooter:{
-        backgroundColor: '#FAFAFA',
+    footer:{
+        backgroundColor: '#FAFAFC',
         borderTopWidth: 1,
         borderTopColor: '#E6E6F0',
         alignItems: 'center',
         justifyContent: 'center',
-        paddingVertical: 10,
-        marginTop: 20,
-    },
-    teacherCardFooterInfo:{
-        flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'center',
-        marginVertical: 10,
     },
     priceHour:{
         fontFamily: 'Poppins_400Regular',
         fontSize: 15,        
         color: '#6A6180',
-        marginRight: 14
+        marginVertical: 20,
     },
-    teacherCost:{
+    cost:{
         fontFamily: 'Poppins_600SemiBold',
         fontSize: 16,
         color: '#8257E5',
     },
-    teacherCardButtonArea:{
+    buttonArea:{
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-evenly',
         paddingHorizontal: 20,
+        marginBottom: 20,
     },
-    teacherCardButtonLike:{
+    buttonFavorite:{
         backgroundColor: '#8257E5',
         width: 55,
         height: 55,
         borderRadius: 8,
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        marginRight: 8,
     },
-    teacherCardButtonWhatsapp:{
+
+    favorited:{
+        backgroundColor: '#E33D3D',
+    },
+
+    buttonWhatsapp:{
         flex: 1,
         height: 56,
         borderRadius: 8,
         backgroundColor: '#04D361',
         flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'center',
-        marginLeft: 8,
+        justifyContent: 'center',        
     },
-    teacherCardButtonWhatsappText:{
+    buttonWhatsappText:{
         fontFamily: 'Archivo_700Bold',
         fontSize: 16,
-        marginLeft: 16,
+        marginLeft: 14,
         color: '#FFF',
     }
 })

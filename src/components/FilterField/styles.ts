@@ -1,15 +1,7 @@
 import { StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#F0F0F7',        
-    },
-    teacherList:{
-        flex: 1,
-        marginTop: -40,
-    },
-    filterForm:{
+    container:{
         marginTop: -10,
     },
     filterCollapse:{
@@ -52,11 +44,8 @@ const styles = StyleSheet.create({
         backgroundColor: '#FFF',
         borderRadius: 8,
         justifyContent: 'center',
-        paddingHorizontal: 8,
+        paddingHorizontal: 16,
         marginBottom: 12,
-    },
-    selector: {
-        color: '#32264D',
     },
     searchButton:{
         height: 56,
@@ -73,7 +62,6 @@ const styles = StyleSheet.create({
         marginLeft: 14,
         color: '#FFF',
     },
-
 })
 
 export default styles

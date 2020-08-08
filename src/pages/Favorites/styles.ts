@@ -4,7 +4,11 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#F0F0F7',
-    }
+    },
+    teacherList:{
+        flex: 1,
+        marginTop: -40,
+    },
 })
 
 export default styles
